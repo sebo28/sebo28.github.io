@@ -21,6 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
+    <!-- Extra JS lnks -->
     <script src="vendor/scroll-reveal/scrollreveal.min.js"></script>
 
 </head>
@@ -46,35 +47,18 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#download">Download</a>
                     </li>
-                    <!-- Communinity links start -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">Communinity</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://discuss.pixls.us/c/software/natron" target="blank">Forum</a>
-                            <a class="dropdown-item" href="https://www.facebook.com/groups/NatronNation/" target="blank">Facebook</a>
-                            <a class="dropdown-item" href="https://plus.google.com/u/0/communities/116548935195599437911" target="blank">Google+</a>
-                            <a class="dropdown-item" href="https://twitter.com/natronvfx" target="blank">Twitter</a>
-                        </div>
-                    </li>
-                    <!-- Communinity links end     -->
-                    <!-- Documentation links start -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">Documentation</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="http://natron.readthedocs.io/en/master/" target="blank">Natron Documentation</a>
-                            <a class="dropdown-item" href="https://github.com/MrKepzie/Natron/wiki" target="blank">Github Wiki</a>
-                            <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PL2n8LbT_b5IeMwi3AIzqG4Rbg8y7d6Amk" target="blank">Youtube</a>
-                            <a class="dropdown-item" href="https://discuss.pixls.us/c/software/natron" target="blank">Tutorials</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#documentation">Documentation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Team</a>
+                        <a class="nav-link js-scroll-trigger" href="" id="forumLink" target="_blank">Forum</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Documentation links end     -->
+    <!-- Navigation End -->
+
 
     <!-- Intro Header Start-->
     <header class="masthead">
@@ -89,7 +73,7 @@
                         <a href="#download" class="btn btn-default btn-sm js-scroll-trigger">Download
                     <i class="fa fa-angle-double-down animated"></i>
                   </a>
-                        <a href="https://github.com/NatronGitHub/Natron" class="btn btn-default btn-sm js-scroll-trigger" target="_blank">Github
+                        <a id="mainRepoLink" href="" class="btn btn-default btn-sm js-scroll-trigger" target="_blank">Github
           <i class="fa fa-github animated"></i>
         </a>
                     </div>
@@ -110,8 +94,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg mx-auto">
-                    <h3>Cross platform & open-source compostior
-                    <br>for visual effects and motiongraphics industry</br/></h3>
+                    <h3>Cross platform & open-source compositor
+                    <br>for visual effects and motion graphics industry</br/></h3>
                     <p class="custom_paragaraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
@@ -136,7 +120,7 @@
                         <img class="card-img-top" src="img/roto-thumb.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Flexible Rotoscoping</h5>
-                            <p class="card-text">Multilayered rotoscoping with stroke capability.</p>
+                            <p class="card-text">Multi-layered rotoscoping with stroke capability.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -150,15 +134,15 @@
                     <div class="card">
                         <img class="card-img-top" src="img/chroma-thumb.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Powerful keyer</h5>
-                            <p class="card-text">Natron has various kind of keyer for your production needs.</p>
+                            <h5 class="card-title">Powerful keying tool</h5>
+                            <p class="card-text">Natron has various kind of key tools for your production needs.</p>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="img/curve-editor-thumb.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Curve & dope-sheet Editor</h5>
-                            <p class="card-text">Powerful curve and Dopesheet Editor with fluid interface.</p>
+                            <p class="card-text">Powerful curve and Dope-sheet Editor with fluid interface.</p>
                         </div>
                     </div>
                 </div>
@@ -176,29 +160,29 @@
                     <div class="card">
                         <img class="card-img-top" src="img/OFX_Thumb.jpeg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">OFX Comapatible</h5>
-                            <p class="card-text">Natron is a listed Opensource OFX host. <a href="http://openeffects.org/" target="_blank">More about OFX</a></p>
+                            <h5 class="card-title">OFX Compatible</h5>
+                            <p class="card-text">Natron is a listed Open-source OFX host. <a href="http://openeffects.org/" target="_blank">More about OFX</a></p>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="img/stoy-gmic-thumb.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Shadertoy & GMIC OFX</h5>
-                            <p class="card-text"> <a href="https://www.shadertoy.com/">Shadertoy</a> & <a href="http://gmic.eu/">GMIC</a> is also with us. Powerful and feature-rich community</p>
+                            <h5 class="card-title">Shadertoy & G'MIC OFX</h5>
+                            <p class="card-text"> <a href="https://www.shadertoy.com/" target="_blank">Shadertoy</a> & <a href="http://gmic.eu/" target="_blank">G'MIC</a> is also with us. Powerful and feature-rich community</p>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="img/community-thumb.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Community Plugins</h5>
-                            <p class="card-text">over 250 and ever increasing community plugins <a href="https://github.com/NatronGitHub/natron-plugins">Here</a> </p>
+                            <p class="card-text">over 250 and ever increasing community plugins <a href="" id="communityplug" target="_blank">Here</a> </p>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
         </div>
-        <!-- more Features collapsable start -->
+        <!-- more Features collapsible start -->
 
         <div class="card feature-dropdown">
             <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -247,14 +231,14 @@
                                 <em>Retina</em> screens on MacOSX.</li>
                         </ul>
                         <ul>
-                            <li><strong>Performances:</strong>&nbsp; Never wait for anything to be rendered, in Natron anything you do produces real-time feedback thanks to its optimised multi-threaded rendering pipeline and its support for proxy rendering
+                            <li><strong>Performances:</strong>&nbsp; Never wait for anything to be rendered, in Natron anything you do produces real-time feedback thanks to its optimized multi-threaded rendering pipeline and its support for proxy rendering
                                 (i.e:&nbsp;the render pipeline can be computed at lower res to speed-up rendering).</li>
                         </ul>
                         <ul>
                             <li><strong>Multi-task</strong>: Natron can render multiple graphs at the same time and&nbsp;make use of 100% of the compute power of your CPU.</li>
                         </ul>
                         <ul>
-                            <li><strong>Network rendering</strong>: Natron can be used as a command-line tool and can be integrated on a render farm manager such as <a href="http://cgru.info/home">Afanasy</a>.</li>
+                            <li><strong>Network rendering</strong>: Natron can be used as a command-line tool and can be integrated on a render farm manager such as <a href="http://cgru.info/home" target="_blank">Afanasy</a>.</li>
                         </ul>
                         <ul>
                             <li><strong>NatronRenderer: </strong>A command line tool for execution of project files and python scripts. The command line version is executable from ssh on a computer without any display.</li>
@@ -286,7 +270,7 @@
                             <li><strong>Presets: </strong>Nodes presets can be imported/exported easily with an XML file format</li>
                         </ul>
                         <ul>
-                            <li><strong>Python scripting:&nbsp;</strong>Natron has made available via its Python API most of its functionnalities.<br> Natron embeds a Python 2.7 interpreter that can be used to customize the application. .</li>
+                            <li><strong>Python scripting:&nbsp;</strong>Natron has made available via its Python API most of its functionalities.<br> Natron embeds a Python 2.7 interpreter that can be used to customize the application. .</li>
                         </ul>
                         <ul>
                             <li><strong>Multi-plane</strong>: In Natron all layers read from EXR’s, TIFF’s or PSD’s are available as planes that each node can access. You can also freely create your own custom planes. This allows for cleaner graphs and more
@@ -297,7 +281,7 @@
             </div>
         </div>
 
-        <!-- more Features collapsable end -->
+        <!-- more Features collapsible end -->
 
     </section>
     <!-- feature section end -->
@@ -310,7 +294,7 @@
 
             <div class="row">
                 <div class="col-lg mx-auto">
-                    <h3>Node Organization :: Level High!</h3> Sticky, Grouping, Pyplug and More. You will love the interacion
+                    <h3>Node Organization :: Level High!</h3> Sticky, Grouping, Pyplug and More. You will love the interaction
                     <p class="custom_paragaraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
@@ -325,11 +309,11 @@
         <div class="open-source-section container">
             <div class="row">
                 <div class="col-lg mx-auto">
-                    <h3>May the Open-Force Be with you!</h3> Back it, Hack it, Push it, Pull it. OpenSource Community Standards are always with you!
+                    <h3>May the Open-Force Be with you!</h3> Back it, Hack it, Push it, Pull it. Open-source Community Standards are always with you!
                     <p class="custom_paragaraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         <br><br>
-                        <a href="https://github.com/NatronGitHub/natron-plugins" class="btn btn-default btn-sm js-scroll-trigger" target="_blank">Natron Community Plugins
+                        <a href="" id="communityplug2" class="btn btn-default btn-sm js-scroll-trigger" target="_blank">Natron Community Plugins
                             <i class="fa fa-github animated"></i>
                         </a>
                     </p>
@@ -349,15 +333,14 @@
     </section>
 
 
-    <!-- ################Download Section Stat############### -->
+    <!-- ################Download Section Start############### -->
     <section id="download" class="download-section content-section text-center">
         <div class="container">
             <div class="col-lg-8 mx-auto">
                 <h2 class="DownlaodHeading">Download Natron</h2>
-                <h6>Current Version 2.3.10
-                <br>
-                <a href="https://github.com/NatronGitHub/Natron/releases/tag/2.3.10" target="_blank">changelog</a> for this version</h6>
-
+                <h6 id="versionnum" style="margin-bottom:0px;"></h6>
+                <h6 style="margin-bottom:10px;"><a href="" id="chnglognum" target="_blank">change-log</a> for this version</h6>
+                <h6>see<a href="" id="preversion" target="_blank"> previous releases</a></h6>
                 <a class="btn btn-outline-dark" data-toggle="collapse" data-target="#windows" role="button" aria-expanded="false" aria-controls="windows">Windows
                 <i class="fa fa-windows"></i>
                 </a>
@@ -374,24 +357,24 @@
                 </a>
             </div>
             <br>
-            <a href="https://github.com/NatronGitHub/natron-plugins" class="btn btn-default-2" role="button" target="_blank">Community Plugins
+            <a href="" id="communityplug3" class="btn btn-default-2" role="button" target="_blank">Community Plugins
                 <i class="fa fa-github animated"></i>
             </a>
-            <br><br><br><br>
+            <br><br>
 
             <!-- ############# windows download start ############ -->
             <div class="collapse" id="windows">
                 <div class="card card-body">
-                    <a title="Download Natron for Windows" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Windows/releases/64bit/files/Natron-2.3.10-Windows-x86_64bit-setup.exe">Download Natron 2.3.10&nbsp;
-                    <i class="fa fa-windows"></i>
+                    <a title="Download Natron for Windows" class="navbar btn-outline-dark" target="_blank" id="winDld" href="">
+                        <!-- <i class="fa fa-windows"></i> -->
                     </a>
-                    <a title="Online Installer for Windows" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Windows/releases/64bit/files/Natron-Windows-x86_64bit-online-release-setup.exe">Online Installer&nbsp;
+                    <a title="Online Installer for Windows" class="navbar btn-outline-dark" target="_blank" id="winOnilineDld" href="">Online Installer&nbsp;
                     <spanclass="fa-stack">
                     <i class="fa fa-windows"></i>
                     <i class="fa fa-cloud"></i>
                     </span>
                     </a>
-                    <a title="Portable for Windows" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Windows/releases/64bit/files/Natron-2.3.10-Windows-x86_64bit-no-installer.zip">Portableble archive&nbsp;
+                    <a title="Portable for Windows" class="navbar btn-outline-dark" target="_blank" id="winPoratbleDld" href="">Portable archive&nbsp;
                     <spanclass="fa-stack">
                     <i class="fa fa-windows"></i>
                     <i class="fa fa-archive"></i>
@@ -404,8 +387,8 @@
             <!-- ############# macos download start ############ -->
             <div class="collapse" id="macos">
                 <div class="card card-body">
-                    <a title="Download Natron for MacOS" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Mac/releases/Natron-2.3.10.dmg">Download Natron 2.3.10&nbsp;
-                    <i class="fa fa-apple"></i>
+                    <a title="Download Natron for MacOS" class="navbar btn-outline-dark" target="_blank" href="" id="macDld">
+                        <!-- <i class="fa fa-apple"></i> -->
                     </a>
                 </div>
             </div>
@@ -414,28 +397,28 @@
             <!-- ############# Linux download start ############ -->
             <div class="collapse" id="linux">
                 <div class="card card-body">
-                    <a title="Download Natron for Linux" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Linux/releases/64bit/files/Natron-2.3.10-Linux-x86_64bit.tgz">Download Natron 2.3.10&nbsp;
-                        <i class="fa fa-linux"></i>
+                    <a title="Download Natron for Linux" class="navbar btn-outline-dark" target="_blank" href="" id="linDld">
+                        <!-- <i class="fa fa-linux"></i> -->
                     </a>
-                    <a title="Linux Online Installaer" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Linux/releases/64bit/files/Natron-Linux-x86_64bit-online-install-release.tgz">Online Installer&nbsp;
+                    <a title="Linux Online Installaer" class="navbar btn-outline-dark" target="_blank" href="" id="linOnilineDld">Online Installer&nbsp;
                     <spanclass="fa-stack">
                     <i class="fa fa-linux"></i>
                     <i class="fa fa-cloud"></i>
                     </span>
                     </a>
-                    <a title="Linux Portable archive" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Linux/releases/64bit/files/Natron-2.3.10-Linux-x86_64bit-portable.tar.xz">Portable Installer&nbsp;
+                    <a title="Linux Portable archive" class="navbar btn-outline-dark" target="_blank" href="" id="linPoratbleDld">Portable Installer&nbsp;
                     <spanclass="fa-stack">
                     <i class="fa fa-linux"></i>
                     <i class="fa fa-archive"></i>
                     </span>
                     </a>
-                    <a title="Linux RPM Package" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Linux/releases/64bit/files/Natron-2.3.10-1.x86_64.rpm">RPM Installer&nbsp;
+                    <a title="Linux RPM Package" class="navbar btn-outline-dark" target="_blank" href="" id="linRpmDld">RPM Installer&nbsp;
                     <spanclass="fa-stack">
                     <i class="fa fa-linux"></i>
                     <img src="img/rpm_icon.png" alt="">
                     </span>
                     </a>
-                    <a title="Linux Deb Package" class="navbar btn-outline-dark" target="_blank" href="https://downloads.natron.fr/Linux/releases/64bit/files/natron_2.3.10_amd64.deb">Debian Installer&nbsp;
+                    <a title="Linux Deb Package" class="navbar btn-outline-dark" target="_blank" href="" id="linDbnDld">Debian Installer&nbsp;
                     <spanclass="fa-stack">
                     <i class="fa fa-linux"></i>
                     <img src="img/debian-icon.png" alt="">
@@ -486,59 +469,45 @@
 
 
 
-    <!-- Team Section Start -->
-    <section id="contact" class="contact-section content-section text-center">
+    <!-- documentation Section Start -->
+    <section id="documentation" class="documentation-section content-section text-center">
         <div class="container">
+            <h2 style="margin-bottom:10px; ">Documentation</h2>
+            <p>Take a look at documentation, FAQ, tutorials and more...</p>
+            <hr style="border-color: rgb(99, 99, 99);" />
+            <br>
             <div class="row">
-                <div class="col-sm-10 mx-auto">
-                    <h2>The Team</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud .</p>
-                    <div class="row">
-                        <div class="col-sm mx-auto">
-
-                            <img class="img-rounded" alt="" src="img/Alex-150x150.png" max-width="20%">
-
-                            <div class="team-member">
-
-                                <strong>Alexandre Gauthier-Foichat</strong>
-
-                                <p>HEAD of the Natron project</p>
-
-                            </div>
-                            <img class="img-rounded" alt="" src="img/Fredric-150x150.png" max-width="20%">
-
-                            <div class="team-member">
-
-                                <strong>Fréderic Devernay</strong>
-
-                                <p>«There is a crack in everything, that’s how the light gets in.» Leonard Cohen – Anthem Research Scientist in 3D Computer Vision. Currently focused on applications to 3D stereoscopic video (3DTV and 3D cinema), but also
-                                    widely interested in computer-aided surgery, augmented reality for medical applications, and computer vision for performing arts.</p>
-
-                            </div>
-                            <img class="img-rounded" alt="" src="img/Omar-Brown-150x150.jpg" max-width="20%">
-
-                            <div class="team-member">
-
-                                <strong>Omar Brown</strong>
-
-                                <p>I am a videographer, editor and musician. My main editing tools are Editshare’s Lightworks, Final Cut Pro X, and Avid Media Composer. My compositors of choice are Natron and Nuke. I love the art of film-making and 3D visual
-                                    effects. Natron artists at NatronNation.
-                                    <a href="https://about.me/omar.brown" target="_blank">Contact</a> </p>
-
-                            </div>
-                        </div>
+                <div class="documentation-member col-sm">
+                    <img class="img-rounded" alt="documentation-icon" src="img/documentation-icon.png">
+                    </img>
+                    <div class="col-sm">
+                        <a class="" href="" id="docuLink" target="_blank">Natron Documentation</a>
                     </div>
-                    <!-- col-lg-4 -->
-
                 </div>
+
+                <div class="documentation-member col-sm">
+                    <img class="img-rounded" alt="gitwiki-icon" src="img/gitwiki-icon.png">
+                    </img>
+                    <div class="col-sm">
+                        <a class="" href="" id="docuGitLink" target="_blank">Github Wiki</a>
+                    </div>
+                </div>
+
             </div>
-        </div>
     </section>
-    <!-- Team Section End -->
+    <!-- documentation Section End -->
+
+
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
+            <h6>Let's get social
+                <br><br>
+                <a class="" href="" id="fblink" target="_blank">Facebook</a>
+                <a class="" href="" id="googleLink" target="_blank">Google+</a>
+                <a class="" href="" id="twitterlink" target="_blank">Twitter</a>
+            </h6>
             <p>Copyright &copy; Natron 2018</p>
         </div>
     </footer>
@@ -553,63 +522,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
-
+    <script src="custom_Links/customLinks.js"></script>
     <!-- scroll reaveal -->
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('.imgwrapper', {
-            duration:1000,
-            delay: .5,
-            viewFactor: 0.2,
-            reset: true,
-            origin: 'right',
-
-        });
-        sr.reveal('.card-deck', {
-            duration:1000,
-            delay: .5,
-            viewFactor: 0.1,
-            reset: true,
-            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-            distance: '20px',
-        });
-        sr.reveal('.feature-dropdown', {
-            duration:1000,
-            delay: .5,
-            viewFactor: 0.1,
-            reset: true,
-            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-            distance: '20px',
-        });
-        sr.reveal('.video', {
-            duration:1000,
-            delay: .5,
-            viewFactor: 0.0,
-            reset: true,
-            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-            distance: '20px',
-            origin: 'left',
-        });
-        sr.reveal('.DownlaodHeading', {
-            duration:1000,
-            delay: .5,
-            viewFactor: 0.0,
-            reset: true,
-            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-            distance: '20px',
-        });
+    <script src="vendor/scroll-reveal/custome_scroll_Params.js"></script>
 
 
-
-        sr.reveal('.img-rounded', {
-            duration:1000,
-            delay: .5,
-            viewFactor: 0.1,
-            reset: true,
-            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-            distance: '20px',
-        });
-    </script>
 
 </body>
 
