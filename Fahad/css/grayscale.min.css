@@ -32,8 +32,8 @@ p {
 }
 
 .imgwrapper {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 #about {
@@ -285,7 +285,7 @@ footer {
     background-color: rgb(30, 30, 30);
 }
 
-#documentation {
+#learn-more {
     color: #fff;
     background-color: rgb(40, 40, 40);
 }
