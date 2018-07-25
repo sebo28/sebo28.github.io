@@ -30,7 +30,7 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
     var chnglognum = "https://github.com/NatronGitHub/Natron/blob/"+versionnum+"/CHANGELOG.md"
     // Windows Downlaod Varaibles Start
         var winDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-setup.exe"
-        var winOnlineDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-Windows-x86_64bit-online-release-setup.exe"
+        //var winOnlineDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-Windows-x86_64bit-online-release-setup.exe"
         var winPortableDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-no-installer.zip"
     // Windows Downlaod Varaibles end
 
@@ -40,10 +40,10 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
 
     // linux Downlaod Varaibles Start
         var linDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit.tgz"
-        var linOnlineDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-Linux-x86_64bit-online-install-release.tgz"
+        //var linOnlineDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-Linux-x86_64bit-online-install-release.tgz"
         var linPortableDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit-portable.tar.xz"
-        var linRpmDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+".x86_64.rpm"
-        var linDbnDld = "https://downloads.natron.fr/Linux/releases/64bit/files/natron_"+versionnum+"_amd64.deb"
+        //var linRpmDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+".x86_64.rpm"
+        //var linDbnDld = "https://downloads.natron.fr/Linux/releases/64bit/files/natron_"+versionnum+"_amd64.deb"
     // Linux Downlaod Varaibles end
 
 ///NO NEED TO TOUCH USUALLY AS IT WORKS WITH VERSION NUMBER/////
@@ -70,7 +70,7 @@ document.getElementById("preversion").href= preversion; //previous version
 //windows downloads start//
     document.getElementById("winDld").href= winDld;
     document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ "&nbsp;"+'<i class="fa fa-windows"></i>';
-    document.getElementById("winOnlineDld").href= winOnlineDld;
+    //document.getElementById("winOnlineDld").href= winOnlineDld;
     document.getElementById("winPortableDld").href= winPortableDld;
 //windows downloads end//
 
@@ -82,10 +82,10 @@ document.getElementById("preversion").href= preversion; //previous version
 //Linux downloads start//
     document.getElementById("linDld").href= linDld;
     document.getElementById("linDld").innerHTML= "Download Natron "+versionnum+ "&nbsp"+'<i class="fa fa-linux"></i>';
-    document.getElementById("linOnlineDld").href= linOnlineDld;
+    //document.getElementById("linOnlineDld").href= linOnlineDld;
     document.getElementById("linPortableDld").href= linPortableDld;
-    document.getElementById("linRpmDld").href= linRpmDld;
-    document.getElementById("linDbnDld").href= linDbnDld;
+    //document.getElementById("linRpmDld").href= linRpmDld;
+    //document.getElementById("linDbnDld").href= linDbnDld;
 //Linux downloads end//
 
 
