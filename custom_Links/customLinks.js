@@ -28,23 +28,29 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
 //////version centric variables:changelog and download etc. START////
 ///NO NEED TO TOUCH USUALLY AS IT WORKS WITH VERSION NUMBER/////
     var chnglognum = "https://github.com/NatronGitHub/Natron/blob/"+versionnum+"/CHANGELOG.md"
-    // Windows Downlaod Varaibles Start
-        var winDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-setup.exe"
+    // Windows Downlaod Variables Start
+        //var winDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-setup.exe"
+        var winDld = "https://github.com/NatronGitHub/Natron/releases/download/"+versionnum+"/Natron-"+versionnum+"-Windows-x86_64bit-setup.exe"
         //var winOnlineDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-Windows-x86_64bit-online-release-setup.exe"
-        var winPortableDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-no-installer.zip"
-    // Windows Downlaod Varaibles end
+        //var winPortableDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-no-installer.zip"
+        var winPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/"+versionnum+"/Natron-"+versionnum+"-Windows-x86_64bit-no-installer.zip"
+    
+    // Windows Download Variables end
 
-    // Mac Downlaod Varaibles start
-        var macDld = "https://downloads.natron.fr/Mac/releases/Natron-"+versionnum+".dmg"
-    // Mac Downlaod Varaibles end
+    // Mac Downlaod Variables start
+        //var macDld = "https://downloads.natron.fr/Mac/releases/Natron-"+versionnum+".dmg"
+        var macDld = "https://github.com/NatronGitHub/Natron/releases/download/"+versionnum+"/Natron-"+versionnum+".dmg"
+    // Mac Downlaod Variables end
 
-    // linux Downlaod Varaibles Start
-        var linDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit.tgz"
+    // linux Download Variables Start
+        //var linDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit.tgz"
+        var linDld = "https://github.com/NatronGitHub/Natron/releases/download/"+versionnum+"/Natron-"+versionnum+"-Linux-x86_64bit.tgz"
         //var linOnlineDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-Linux-x86_64bit-online-install-release.tgz"
-        var linPortableDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit-portable.tar.xz"
+        //var linPortableDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit-portable.tar.xz"
+        var linPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/"+versionnum+"/Natron-"+versionnum+"-Linux-x86_64bit-portable.tar.xz"
         //var linRpmDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+".x86_64.rpm"
         //var linDbnDld = "https://downloads.natron.fr/Linux/releases/64bit/files/natron_"+versionnum+"_amd64.deb"
-    // Linux Downlaod Varaibles end
+    // Linux Download Variables end
 
 ///NO NEED TO TOUCH USUALLY AS IT WORKS WITH VERSION NUMBER/////
 //////version centric variables:changelog and download etc. END/////
