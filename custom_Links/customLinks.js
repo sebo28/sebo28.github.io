@@ -69,19 +69,19 @@ document.getElementById("preversion").href= preversion; //previous version
 
 //windows downloads start//
     document.getElementById("winDld").href= winDld;
-    document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ "&nbsp;"+'<i class="fa fa-windows"></i>';
+    document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ " installer&nbsp;"+'<i class="fa fa-windows"></i>';
     //document.getElementById("winOnlineDld").href= winOnlineDld;
     document.getElementById("winPortableDld").href= winPortableDld;
 //windows downloads end//
 
 //Mac downloads start//
     document.getElementById("macDld").href= macDld;
-    document.getElementById("macDld").innerHTML= "Download Natron "+versionnum+ "&nbsp"+'<i class="fa fa-apple"></i>';
+    document.getElementById("macDld").innerHTML= "Download Natron "+versionnum+ " dmg&nbsp"+'<i class="fa fa-apple"></i>';
 //Mac downloads end//
 
 //Linux downloads start//
     document.getElementById("linDld").href= linDld;
-    document.getElementById("linDld").innerHTML= "Download Natron "+versionnum+ "&nbsp"+'<i class="fa fa-linux"></i>';
+    document.getElementById("linDld").innerHTML= "Download Natron "+versionnum+ " installer&nbsp"+'<i class="fa fa-linux"></i>';
     //document.getElementById("linOnlineDld").href= linOnlineDld;
     document.getElementById("linPortableDld").href= linPortableDld;
     //document.getElementById("linRpmDld").href= linRpmDld;
