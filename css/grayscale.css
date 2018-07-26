@@ -40,10 +40,13 @@ p {
     color: #000;
     background: linear-gradient(#b4b4b4, #ececec)
 }
+#about a{
+    color: #428bca
+}
 
 #features {
     color: #000;
-    padding-top: 50px;
+    padding-top: 50px
 }
 
 #morefeatures a {
