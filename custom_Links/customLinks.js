@@ -7,9 +7,9 @@ var versionnum = "2.3.14"
 var preversion = "https://sourceforge.net/projects/natron/files/"
 
 // Git hub Main Repo Page Link
-var mainRepoLink = "https://github.com/sebo28GitHub/sebo28";
+var mainRepoLink = "http://sebo28github.github.io/";
 // Community plugin links
-var communityplug = "https://github.com/NatronGitHub/natron-plugins";
+var communityplug = "http://sebo28github.github.io/";
 
 
 // Social Links
