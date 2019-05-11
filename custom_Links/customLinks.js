@@ -4,7 +4,7 @@ will update all version centric variables */
 var versionnum = "2.3.14"
 
 //previous version link
-var preversion = "https://sourceforge.net/projects/natron/files/"
+var preversion = "https://www.pisilinux.org/indir"
 
 // Git hub Main Repo Page Link
 var mainRepoLink = "http://sebo28github.github.io/";
